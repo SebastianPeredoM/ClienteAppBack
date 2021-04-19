@@ -4,6 +4,6 @@ const express    = require('express'),
 
 routes.post('/crearcliente', controller.crearCliente)
       .get('/listclientes' , controller.listarClientes)
-      .get('/kpideclientes' , controller.kpiClientes);
+      .get('/kpideclientes', controller.kpiClientes);
 
 module.exports = routes;
