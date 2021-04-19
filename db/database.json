@@ -1,7 +1,7 @@
 {
-    "host": "localhost",
+    "host": "35.196.162.131",
     "user": "postgres",
-    "password": "postgress",
+    "password": "clientapp",
     "port": 5432,
     "database": "clientapp"
 }

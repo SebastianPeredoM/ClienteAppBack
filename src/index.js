@@ -4,7 +4,6 @@ const cors = require('cors');
 const cliente_routes = require('./cliente/r_cliente')
 
 const app = express();
-
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }))
